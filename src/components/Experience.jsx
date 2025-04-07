@@ -7,7 +7,6 @@ import reactImage from "../assets/react.png";
 import expressjs from "../assets/express.png";
 import node from "../assets/node.png";
 import redux from "../assets/redux.png";
-import bootsrap from "../assets/bootsrap.png";
 import github from "../assets/github.png";
 import git from "../assets/git.jpg";
 import tailwind from "../assets/tailwind.png";
