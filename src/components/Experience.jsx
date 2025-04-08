@@ -89,18 +89,6 @@ const Experience = () => {
       title: "MongoDB",
       style: "shadow-gray-400",
     },
-    {
-      id: 13,
-      src: api,
-      title: "REST API",
-      style: "shadow-gray-400",
-    },
-    {
-      id: 13,
-      src: bootsrap,
-      title: "Bootsrap",
-      style: "shadow-gray-400",
-    },
   ];
 
   return (
