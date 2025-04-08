@@ -10,18 +10,21 @@ const Portfolio = () => {
       src: githubAppPic,
       demo: "https://mern-github-app-gpc4.onrender.com/",
       code: "https://github.com/BharathiKannanBabu/mern-github-app",
+      title: 'Github App'
     },
     {
       id: 2,
       src: chatAppPic,
       demo: "https://fullstack-chat-app2.onrender.com/",
       code: "https://github.com/BharathiKannanBabu/mern-chat-app",
+      title: 'Chat App'
     },
     {
       id: 3,
       src: cttiAppPic,
       demo: "https://ctti-items-stroe.onrender.com/",
       code: "https://github.com/BharathiKannanBabu/CTTI-Items-stroe",
+      title: 'CTTI Items Store'
     },
   ];
 
@@ -39,7 +42,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, demo, code }) => (
+          {portfolios.map(({ id, src, demo, code, title }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -64,6 +67,7 @@ const Portfolio = () => {
                   Code
                 </a>
               </div>
+              <h1 className="text-xl text-center p-1">{title}</h1>
             </div>
           ))}
         </div>

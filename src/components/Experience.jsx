@@ -12,6 +12,8 @@ import git from "../assets/git.jpg";
 import tailwind from "../assets/tailwind.png";
 import jquery from "../assets/jquery.png";
 import mongoDB from "../assets/mongoDB.png";
+import bootsrap from '../assets/bootsrap.jpeg'
+import api from '../assets/api.png'
 
 const Experience = () => {
   const techs = [
@@ -84,7 +86,19 @@ const Experience = () => {
     {
       id: 12,
       src: mongoDB,
-      title: "MngoDB",
+      title: "MongoDB",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 13,
+      src: api,
+      title: "REST API",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 13,
+      src: bootsrap,
+      title: "Bootsrap",
       style: "shadow-gray-400",
     },
   ];
